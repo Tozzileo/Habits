@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+}
+
+body{
+    background-color: #09090A ;
+    color: white ;
+  
+    height: 100vh;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 48px;
+
+    position: fixed;
+    background-color: #09090A;
+    width: 90%;
+}
+
+button{
+    padding: 12px 26px;
+    border-radius: 8px;
+    border: 1px solid #B71E1E;
+    background-color: transparent;
+    color: antiquewhite; 
+
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    width: fit-content;
+
+    font-family: 'Roboto' ;
+    font-weight: 600;
+    font-size: 16;
+    line-height: 100%;
+}
+
+#form-habits {
+    display: flex;
+
+    padding: 265px 48px 48px;
+    width: fit-content;
+}
+
+.habits{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+
+    gap: 24px;
+}
+
+.habit{
+    border: transparent;
+
+    width: 64px;
+    height: 64px;
+
+    font-size: 32px;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.days {
+    display: flex;
+    gap: 48px;
+    margin-left: 32px ;
+}
+
+.day {
+    display: flex;
+    gap: 24px;
+    flex-direction: column;
+}
+
+.day div{
+    margin-bottom: 8px;
+
+    font-family: 'Fira Code';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 30px;
+
+    text-align: center;
+}
+
+input{
+    appearance: none;
+    -webkit-appearance: none;
+
+    border: 1px solid rgba(169, 34, 34, 0.96);
+    border-radius: 15px;
+    width: 60px;
+    height: 60px;
+}
+
+input:checked{
+    background: #E92020;
+    border-radius: 15px;
+}
+
+@media (max-width: 570px) {
+    button div {
+        display: none;
+    }
+}
