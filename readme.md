@@ -2,7 +2,7 @@
 
 <p allign="center">
 
-Projeto criado no Evento NLW Setup da Rocketseat realizado entre os dias 16/01/2023 à 23/01/2023. <br/>
+Project created at Rocketseat's Online and free event NLW Setup, that was held on January 16th until January 23rd on their website. <br/>
 
 </p>
 
@@ -13,13 +13,13 @@ Projeto criado no Evento NLW Setup da Rocketseat realizado entre os dias 16/01/2
 </p>
 
 <p>
-Habits é uma aplicação com o intuito de rastrear hábitos diários.
+Habits is an app too keep tracks of different activities throughout the day.
 </p>
 
 <p>
-Tecnologias utilizadas
+Tech used
 
 - HTML
 - CSS
 - JavaScript
-- Git
+- Figma
